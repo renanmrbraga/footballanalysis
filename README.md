@@ -31,8 +31,8 @@ Serão utilizadas ferramentas como **BeautifulSoup** e **Selenium** para coletar
 
 ## Estrutura do Projeto
 ```
-Analise-SerieA/
-|-- data/                # Conjunto de dados brutos e processados
+footballanalysis/
+|-- data/                # Conjunto de dados
 |-- notebooks/           # Jupyter Notebooks para exploração dos dados
 |-- dashboards/          # Dashboards interativos
 |-- src/                 # Código-fonte principal do projeto
