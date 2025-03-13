@@ -16,7 +16,6 @@ As principais tecnologias utilizadas serão:
 - Analisar os investimentos dos clubes e seu impacto nos resultados esportivos.
 - Estudar o endividamento dos clubes e como isso afeta sua sustentabilidade financeira.
 - Construir dashboards interativos para visualizar os padrões e tendências financeiras e esportivas.
-- Criar um modelo de previsão para estimar o impacto dos investimentos futuros.
 
 ## Coleta de Dados
 
