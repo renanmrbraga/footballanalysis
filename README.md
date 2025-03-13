@@ -26,7 +26,7 @@ Os dados serão coletados a partir de diversas fontes, incluindo:
 - **Banco de dados históricos** de campeonatos e resultados.
 
 ### Web Scraping e APIs
-Serão utilizadas ferramentas como **BeautifulSoup** e **Selenium** para coletar dados financeiros de relatórios anuais e balanços dos clubes. APIs esportivas fornecerão estatísticas sobre partidas, jogadores e classificação ao longo dos anos. Ambos serão feitos no meu projeto [Football Science](https://github.com/renanmrbraga/football-science).
+Serão utilizadas ferramentas como **BeautifulSoup** e **Selenium** para coletar dados financeiros de relatórios anuais e balanços dos clubes. APIs esportivas fornecerão estatísticas sobre partidas, jogadores e classificação ao longo dos anos. Ambos serão feitos no meu projeto [Football Science](https://github.com/renanmrbraga/footballscience).
 
 ## Estrutura do Projeto
 ```
