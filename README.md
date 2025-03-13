@@ -37,8 +37,6 @@ Analise-SerieA/
 |-- dashboards/          # Dashboards interativos
 |-- src/                 # Código-fonte principal do projeto
 |   |-- preprocessing/   # Scripts de pré-processamento
-|   |-- scraping/        # Scripts de Web Scraping
-|   |-- apis/            # Integração com APIs externas
 |   |-- analysis/        # Análises exploratórias e estatísticas
 |   |-- visualization/   # Dashboards e relatórios
 |-- requirements.txt     # Dependências do projeto
