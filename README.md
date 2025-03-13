@@ -46,8 +46,8 @@ footballanalysis/
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/seu_usuario/analise-seriea.git
-cd analise-seriea
+git clone https://github.com/renanmrbraga/footballanalysis.git
+cd footballanalysis
 ```
 
 ### 2. Criar e ativar um ambiente virtual
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ### 5. Executar a coleta de dados
 ```bash
-python src/scraping/coletar_dados.py
+python src/preprocessing/coletar_dados.py
 ```
 
 ### 6. Iniciar o Dashboard
