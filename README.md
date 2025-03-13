@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ### 5. Executar a coleta de dados
 ```bash
-python src/preprocessing/coletar_dados.py
+python src/coletar_dados.py
 ```
 
 ### 6. Iniciar o Dashboard
