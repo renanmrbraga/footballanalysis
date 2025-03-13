@@ -86,8 +86,3 @@ Se quiser contribuir para este projeto, siga os passos:
 
 ## Licença
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Esse README estabelece uma base bem documentada para o projeto, facilitando sua expansão e colaboração futura.
-
