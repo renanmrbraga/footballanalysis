@@ -1,35 +1,96 @@
 # Football Analysis
 
-📌 **Descrição**  
-O **Football Analysis** é um projeto focado em **Análise de Dados** aplicada ao futebol. Utiliza estatísticas históricas, dados financeiros e informações de desempenho para gerar insights e auxiliar na tomada de decisões estratégicas.
+## Descrição
 
-📊 **Principais Objetivos**  
-- Analisar a evolução dos clubes ao longo dos anos.  
-- Identificar padrões de desempenho baseados em estatísticas.  
-- Criar dashboards interativos para visualização dos dados.  
-- Relacionar investimentos com sucesso esportivo.  
+Este projeto avançado de Análise de Dados busca compreender a relação entre os gastos financeiros, dívidas e sucesso esportivo de todos os clubes da Série A do Campeonato Brasileiro nos últimos 10 anos. Utilizando dashboards interativos e ferramentas de visualização, o objetivo é responder questões críticas sobre a gestão financeira e o desempenho esportivo dos clubes.
 
-🛠️ **Tecnologias Utilizadas**  
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn)  
-- **Power BI** (Dashboards Interativos)  
-- **Streamlit** (Aplicações Web)  
-- **Bases de Dados:** Transfermarkt, Sofascore, CBF  
+As principais tecnologias utilizadas serão:
+- **Power BI**
+- **Streamlit + Python**
+- **Pandas e NumPy para manipulação de dados**
+- **Matplotlib e Seaborn para visualização**
+- **PostgreSQL para armazenamento dos dados estruturados**
+- **APIs e Web Scraping para coleta de dados**
 
-📂 **Estrutura do Projeto**  
+## Objetivos
+- Analisar os investimentos dos clubes e seu impacto nos resultados esportivos.
+- Estudar o endividamento dos clubes e como isso afeta sua sustentabilidade financeira.
+- Construir dashboards interativos para visualizar os padrões e tendências financeiras e esportivas.
+- Criar um modelo de previsão para estimar o impacto dos investimentos futuros.
+
+## Coleta de Dados
+
+### Fontes de Dados:
+Os dados serão coletados a partir de diversas fontes, incluindo:
+- **APIs esportivas** para estatísticas de partidas e desempenho dos clubes.
+- **Web Scraping** em sites de finanças e relatórios contábeis dos clubes.
+- **Banco de dados históricos** de campeonatos e resultados.
+
+### Web Scraping e APIs
+Serão utilizadas ferramentas como **BeautifulSoup** e **Selenium** para coletar dados financeiros de relatórios anuais e balanços dos clubes. APIs esportivas fornecerão estatísticas sobre partidas, jogadores e classificação ao longo dos anos.
+
+## Estrutura do Projeto
 ```
-Football_Analysis/
-│── data/           # Conjunto de dados utilizados
-│── notebooks/      # Notebooks de análise exploratória
-│── reports/        # Dashboards e visualizações
-│── src/            # Scripts de análise de dados
-│── README.md       # Documentação do projeto
+Analise-SerieA/
+|-- data/                # Conjunto de dados brutos e processados
+|-- notebooks/           # Jupyter Notebooks para exploração dos dados
+|-- dashboards/          # Dashboards interativos
+|-- src/                 # Código-fonte principal do projeto
+|   |-- preprocessing/   # Scripts de pré-processamento
+|   |-- scraping/        # Scripts de Web Scraping
+|   |-- apis/            # Integração com APIs externas
+|   |-- analysis/        # Análises exploratórias e estatísticas
+|   |-- visualization/   # Dashboards e relatórios
+|-- requirements.txt     # Dependências do projeto
+|-- README.md            # Documentação do projeto
 ```
 
-🚀 **Como Executar**  
-1. Clone este repositório.  
-2. Instale as dependências: `pip install -r requirements.txt`  
-3. Execute os notebooks na pasta `/notebooks`.  
+## Instalação e Configuração
 
-🔍 **Próximos Passos**  
-- Aperfeiçoar os dashboards para análises mais dinâmicas.  
-- Ampliar a base de dados para incluir campeonatos internacionais.  
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/seu_usuario/analise-seriea.git
+cd analise-seriea
+```
+
+### 2. Criar e ativar um ambiente virtual
+```bash
+python3 -m venv venv
+source venv/bin/activate  # Para Linux/macOS
+venv\Scripts\activate     # Para Windows
+```
+
+### 3. Instalar dependências
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configurar o banco de dados
+- Certifique-se de que o banco de dados (PostgreSQL) esteja rodando.
+- Configurar as credenciais no arquivo `.env`.
+
+### 5. Executar a coleta de dados
+```bash
+python src/scraping/coletar_dados.py
+```
+
+### 6. Iniciar o Dashboard
+```bash
+streamlit run dashboards/dashboard.py  # Para visualização dos dados
+```
+
+## Contribuição
+Se quiser contribuir para este projeto, siga os passos:
+1. **Fork** o repositório
+2. Crie uma **branch** para sua funcionalidade (`git checkout -b minha-feature`)
+3. Commit suas mudanças (`git commit -m 'Adicionando nova feature'`)
+4. Faça **push** para a branch (`git push origin minha-feature`)
+5. Abra um **Pull Request**
+
+## Licença
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Esse README estabelece uma base bem documentada para o projeto, facilitando sua expansão e colaboração futura.
+
